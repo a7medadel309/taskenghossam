@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starz Cinema - Movies, Halls & Concessions</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">🎬 <span>Starz</span>Cinema</div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#stats">Overview</a></li>
+                <li><a href="#movies">Showtimes</a></li>
+                <li><a href="#market">Walmart & Snacks</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section: What would you like to do? -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>What Would You Like To Do?</h1>
+            <p>Catch the latest blockbusters across premium cinema halls, book your tickets in seconds, and grab your favorite snacks on the way in.</p>
+            <div class="hero-buttons">
+                <a href="#movies" class="btn primary-btn">Book Tickets Now</a>
+                <a href="#market" class="btn secondary-btn">Explore Concessions</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cinema Stats: Halls, Shows, Times, Movies -->
+    <section id="stats" class="stats-section">
+        <div class="stat-box">
+            <span class="stat-number">6</span>
+            <span class="stat-label">Cinema Halls</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-number">24</span>
+            <span class="stat-label">Daily Screenings</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Movies Showing</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-number">4</span>
+            <span class="stat-label">Showtimes per Hall</span>
+        </div>
+    </section>
+
+    <!-- Showtimes: Movies, Halls, and Times -->
+    <section id="movies" class="movies-section">
+        <h2 class="section-title">Now Showing & Daily Schedules</h2>
+        <p class="section-subtitle">Pick a movie, choose your preferred hall, and reserve your seat</p>
+
+        <div class="movies-grid">
+
+            <!-- Movie Card 1 -->
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=500&q=80" alt="The Dark Horizon">
+                    <span class="badge hall-badge">Hall 1 • IMAX</span>
+                </div>
+                <div class="movie-info">
+                    <h3>The Dark Horizon</h3>
+                    <p class="genre">Action / Sci-Fi • 2h 20m</p>
+                    <div class="shows">
+                        <strong>Available Showtimes:</strong>
+                        <div class="showtime-tags">
+                            <span>01:00 PM</span>
+                            <span>04:30 PM</span>
+                            <span>08:00 PM</span>
+                            <span>11:30 PM</span>
+                        </div>
+                    </div>
+                    <button class="btn card-btn">Quick Book</button>
+                </div>
+            </div>
+
+            <!-- Movie Card 2 -->
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://images.unsplash.com/photo-1518676590629-3dcbd9c5a5c9?auto=format&fit=crop&w=500&q=80" alt="Echoes of Silence">
+                    <span class="badge hall-badge">Hall 2 • VIP Lounge</span>
+                </div>
+                <div class="movie-info">
+                    <h3>Echoes of Silence</h3>
+                    <p class="genre">Mystery / Thriller • 1h 50m</p>
+                    <div class="shows">
+                        <strong>Available Showtimes:</strong>
+                        <div class="showtime-tags">
+                            <span>02:00 PM</span>
+                            <span>05:15 PM</span>
+                            <span>08:30 PM</span>
+                            <span>11:45 PM</span>
+                        </div>
+                    </div>
+                    <button class="btn card-btn">Quick Book</button>
+                </div>
+            </div>
+
+            <!-- Movie Card 3 -->
+            <div class="movie-card">
+                <div class="movie-poster">
+                    <img src="https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=500&q=80" alt="Kingdom of Sand">
+                    <span class="badge hall-badge">Hall 3 • 3D Screen</span>
+                </div>
+                <div class="movie-info">
+                    <h3>Kingdom of Sand</h3>
+                    <p class="genre">Adventure / Drama • 2h 10m</p>
+                    <div class="shows">
+                        <strong>Available Showtimes:</strong>
+                        <div class="showtime-tags">
+                            <span>12:30 PM</span>
+                            <span>03:45 PM</span>
+                            <span>07:00 PM</span>
+                            <span>10:15 PM</span>
+                        </div>
+                    </div>
+                    <button class="btn card-btn">Quick Book</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Concessions / Walmart Mart Section -->
+    <section id="market" class="market-section">
+        <h2 class="section-title">Cinema Walmart & Candy Bar</h2>
+        <p class="section-subtitle">Stock up on premium snacks and drinks before lights out</p>
+        
+        <div class="market-grid">
+            <div class="market-item">
+                <div class="item-icon">🍿</div>
+                <h3>Artisan Popcorn</h3>
+                <p>Hot, buttery, and fresh sweet caramel batches</p>
+                <span class="price">$5.50</span>
+            </div>
+            <div class="market-item">
+                <div class="item-icon">🥤</div>
+                <h3>Fountain Drinks</h3>
+                <p>Ice-cold soft drinks, sodas, and fresh juices</p>
+                <span class="price">$3.25</span>
+            </div>
+            <div class="market-item">
+                <div class="item-icon">🍫</div>
+                <h3>Candy & Sweets</h3>
+                <p>Imported boxed chocolate bars and gummy candies</p>
+                <span class="price">$4.00</span>
+            </div>
+            <div class="market-item">
+                <div class="item-icon">🧀</div>
+                <h3>Loaded Nachos</h3>
+                <p>Crispy corn tortilla chips with warm melted cheese</p>
+                <span class="price">$6.50</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <div class="about-card">
+            <h2>About Starz Cinema</h2>
+            <p>
+                We provide a cutting-edge cinematic experience built for film lovers. Featuring immersive IMAX 
+                and 3D laser projection systems coupled with Dolby Atmos spatial audio, our halls are crafted 
+                for maximum comfort with luxury recliner seating. From midday matinees to midnight premieres, 
+                our on-site Walmart market keeps you fueled with fresh snacks throughout your viewing.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Starz Cinema. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
